@@ -1,0 +1,43 @@
+// Place all the styles related to the Games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.letter{
+    display: flex;
+    font-size: larger;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(8, 80, 189);
+    color: white;
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.4s ease;
+}
+.letter:hover {
+    opacity: 1;
+}
+.letter:active {
+    opacity: 1;
+}
+.btn-gradient {
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: rgb(8, 80, 189);
+    transition: background 0.3s ease;
+    border: 1px solid #0F60C4;
+    text-align: center;
+    margin-top: 15px;
+    opacity: 0.6;
+  }
+  .btn-gradient:hover{
+      opacity: 1;
+  }
